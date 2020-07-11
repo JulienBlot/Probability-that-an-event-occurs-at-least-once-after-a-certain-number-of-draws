@@ -5,13 +5,13 @@ The program calculates the probability that an event will occur at least once af
 *Example: let's assume that there is a 12% probability in each decade that a Carrington-type solar flare will occur, we want to know the probability that it will occur within 40 years.*
 
 First we choose the probability of this event and the number of decades (draws)
-eventProbability = 0.12 -- 12%
+eventProbability = 0.12 -- 12% 
 drawsNb = 4 -- 4 decades (40 years)
 
 We obtain both the theoretical value (the strict calculation) and an experimental value obtained through an algorithm which generated the average of the results of a large number of simulations (depending on the precision). The experimental value will differ slightly with each execution.
 
 We get as output:
-"Theoretical value: 0.40030464 i.e. 40.030464%
+"Theoretical value: 0.40030464 i.e. 40.030464% 
 Experimental value: 0.400276 i.e. 40.0276% "
 
 
