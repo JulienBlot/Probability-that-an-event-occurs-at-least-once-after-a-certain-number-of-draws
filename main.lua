@@ -1,7 +1,7 @@
 -- Probability that an event occurs at least once after a certain number of draws
 
-eventProbability = 0.1
-drawsNb = 5
+eventProbability = 0.12
+drawsNb = 4
 precision = 1000000
 
 math.randomseed(os.time())
